@@ -1,6 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-
 // create our Post model
 class Post extends Model {}
 
@@ -40,5 +39,4 @@ Post.init(
     }
   );
 
-  module.exports = Post;
-
+module.exports = Post;
